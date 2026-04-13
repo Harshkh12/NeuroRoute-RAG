@@ -10,37 +10,6 @@
 
 ## 🚀 Overview
 
-**NeuroRoute-RAG** is a production-style, self-improving Retrieval-Augmented Generation (RAG) system built with an agentic AI architecture.
-
-It goes beyond traditional RAG by integrating:
-
-* 🔍 **Hybrid Retrieval (Dense + Sparse + Web)**
-* 🧩 **Context Compression for efficient LLM usage**
-* 🔁 **Feedback-driven learning loop**
-* 🤖 **Dynamic LLM routing (Gemini + Groq)**
-
-The system intelligently adapts retrieval strategies, optimizes context, and continuously improves response quality based on user interactions.
-
----
-
-## 💡 Highlights
-
-* Self-improving RAG with feedback-based adaptation
-* Hybrid retrieval combining vector search, keyword matching, and web search
-* Context-aware compression to reduce tokens & improve relevance
-* Multi-agent orchestration using LangGraph
-* Cost-optimized LLM routing (Gemini + Groq)
-* Modular, production-ready architecture
-=======
-# NeuroRoute-Rag - Intelligent Agentic AI Chatbot
-
-[![Python 3.9+](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green.svg)](https://fastapi.tiangolo.com/)
-[![LangGraph](https://img.shields.io/badge/LangGraph-0.5.4-orange.svg)](https://python.langchain.com/langgraph/)
-[![Qdrant](https://img.shields.io/badge/Qdrant-VectorDB-purple.svg)](https://qdrant.tech/)
-
-## 📋 Overview
-
 **NeuroRoute-Rag** is an intelligent, end-to-end Retrieval-Augmented Generation (RAG) system powered by agentic AI architecture. It combines dynamic query routing, intelligent document retrieval, and advanced LLM capabilities to provide accurate, context-aware answers to user queries.
 
 The system intelligently adapts its retrieval strategy based on query type, utilizing indexed documents, general knowledge, or real-time web search to generate comprehensive responses. Built with a modular architecture using LangGraph for workflow orchestration and multiple storage backends for scalability.
